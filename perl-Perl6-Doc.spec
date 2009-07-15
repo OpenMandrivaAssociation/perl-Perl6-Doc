@@ -1,5 +1,5 @@
 %define upstream_name    Perl6-Doc
-%define upstream_version 0.36
+%define upstream_version 0.40
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -96,5 +96,4 @@ rm -rf %buildroot
 %doc Changes README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-/usr/bin/p6doc
 
